@@ -1,6 +1,6 @@
 # Muhammad Mansoor - Portfolio
 
-Professional portfolio website showcasing 5+ years of software engineering experience.
+Professional portfolio website showcasing 3+ years of software engineering experience.
 
 ## Technologies
 
