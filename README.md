@@ -1,34 +1,56 @@
 # Muhammad Mansoor - Portfolio
 
-Professional portfolio website showcasing 3+ years of software engineering experience.
+Muhammad Mansoor's personal portfolio, showcasing backend and full-stack projects, technical skills, professional experience, and contact links.
+
+## Features
+
+- Responsive layout with a dark theme
+- Project cards linking to GitHub repositories
+- About, skills, experience, and contact sections
+- Smooth navigation between sections
 
 ## Technologies
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- Vanilla JavaScript, embedded in `index.html`
+
+The site uses static files and requires no build step or package installation.
+
+## Project Structure
+
+```text
+index.html   Page content, metadata, and navigation scripts
+style.css    Layout, theme, and responsive styles
+README.md    Project documentation
+```
 
 ## Local Development
 
-Simply open `index.html` in your web browser or use a local server:
+Clone the repository:
 
 ```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js (if you have http-server installed)
-npx http-server
+git clone https://github.com/engr-muhammad-mansoor/portfolio-.git
+cd portfolio-
 ```
 
-Then visit `http://localhost:8000`
+Open `index.html` directly in your browser. To preview through a local server instead, run the following from the repository directory with Python 3 installed:
+
+```bash
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+Visit [http://127.0.0.1:8000](http://127.0.0.1:8000). Press `Ctrl+C` in the terminal to stop the server.
+
+## Editing the Portfolio
+
+- Update text, project links, contact details, and page metadata in `index.html`.
+- Update colors, spacing, layouts, and responsive breakpoints in `style.css`.
+- Preview the page at desktop and mobile widths, and check navigation and external links after making changes.
 
 ## Deployment
 
-This portfolio can be deployed to:
-- Vercel (recommended)
-- GitHub Pages
-- Netlify
-- Any static hosting service
+Deploy the repository root to a static hosting service, serving `index.html` as the entry page. Keep `style.css` beside it so the relative stylesheet link works. No build command or generated output directory is needed.
 
 ## License
 
